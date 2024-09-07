@@ -250,7 +250,7 @@ article .art-btn:hover{
 /* ///////////////////////////////////////////////////////////////////////////////// */
 .sec-solar{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-color: rgba(215, 214, 214, 0.5);
     padding: 50px;
     padding-bottom: 300px;
@@ -266,6 +266,9 @@ article .art-btn:hover{
 }
 .con-title p{
     font-size: 25px;
+}
+.container2{
+    height: 100vh;
 }
 .con-content{
     margin: auto;
