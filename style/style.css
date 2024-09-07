@@ -250,7 +250,11 @@ article .art-btn:hover{
 /* ///////////////////////////////////////////////////////////////////////////////// */
 .sec-solar{
     width: 100%;
+<<<<<<< HEAD
     max-height: 110vh;
+=======
+    height: 110vh;
+>>>>>>> 554f7038b2046c9026bb59726362482ca7af05f5
     background-color: rgba(215, 214, 214, 0.5);
     padding: 50px;
     padding-bottom: 300px;
