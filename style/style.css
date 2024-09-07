@@ -253,6 +253,7 @@ article .art-btn:hover{
     height: 100vh;
     background-color: rgba(215, 214, 214, 0.5);
     padding: 50px;
+    padding-bottom: 300px;
 }
 .con-title{
     text-align: center;
