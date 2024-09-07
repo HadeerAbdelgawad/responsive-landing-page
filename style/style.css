@@ -250,7 +250,7 @@ article .art-btn:hover{
 /* ///////////////////////////////////////////////////////////////////////////////// */
 .sec-solar{
     width: 100%;
-    height: 100vh;
+    max-height: 110vh;
     background-color: rgba(215, 214, 214, 0.5);
     padding: 50px;
     padding-bottom: 300px;
@@ -266,6 +266,9 @@ article .art-btn:hover{
 }
 .con-title p{
     font-size: 25px;
+}
+.container2{
+    height: 100vh;
 }
 .con-content{
     margin: auto;
@@ -386,12 +389,13 @@ article .art-btn:hover{
 /* ///////////////////////////////////////////////////////////////////////////////// */
 .energy{
     background-color: rgba(255, 215, 170, 0.2);
-    width: 100%;
+    min-width: 100%;
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(1,90%);
-    padding: 70px;
+    gap: 5px;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -427,12 +431,17 @@ article .ener-p{
     color: rgb(94, 93, 93);
     font-weight: 400;
     line-height: 33px;
-}   
+} 
+.aside2{
+    box-sizing: border-box;
+    object-fit: contain;
+}  
 .aside2-row1,.aside2-row2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(1,1fr);
+    grid-template-rows: repeat(1,100%);
     gap: 30px;
+    box-sizing: border-box;
 }
 .fig1 , .fig2{
     background-color: rgba(89, 158, 141,0.122425);
@@ -441,10 +450,11 @@ article .ener-p{
     padding: 20px;
     transition: transform -.3s ease, box-shadow 0.3s ease;
     margin-bottom: 10px;
+    object-fit: contain;
 }
 .img-con{
     position: relative;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 30px;
 }
 .img-overlay img{
